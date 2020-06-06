@@ -1,0 +1,30 @@
+'''
+y = wb + b
+w = slope or weight vector
+b = bias
+
+
+loss = difference between predicted value and y
+Loss is also squared error or l2 loss.
+(observation - prediction)^2 = loss
+Multiple Feature: y' = b +w1x1 + w2x2 + w3x3 + . . .  
+
+Minimizing loss = Empirical Risk Minimization
+
+Mean Square Error(MSE): 1/N * sum((y - y')^2)
+
+Minimizing Loss:
+Hyper Parameters are congi settings used to tune how model is trained
+
+Gradient:
+derivative of (y - y')^2) wrt to weights and biases tell loss change
+Known as gradient loss
+
+Learning rate can be seen as length of step.
+
+Stochastic GD: One example at time
+Mini-Batch GD: Batch of 10-100 
+
+
+'''
+
