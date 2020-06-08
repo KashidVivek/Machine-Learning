@@ -1,0 +1,35 @@
+Classfication to predict the category of data using multiple features
+Types of Classification algorithms:
+Naive bayes
+Decision Trees
+Neural Networks
+Support vector machines
+K nearest Neighbors
+
+#K nearest Neighbors
+Takes bunch of label points to determine the class of new point
+Algo;
+1. Pick K
+2. Calculate distance from new unknowm case from all cases
+3. Slect K observations near unknown data point 
+4. Predict label using most popular response value
+
+
+distance : Euclidean
+
+Jaccard Index:
+y:actual label
+y_hat: predicted label
+jaccard index = intx/ symm diff
+
+F1 score: Confusiom matrix
+[[TP,FN]
+ [FP,TN]]
+
+ precision: acuuracy = tp/ tp+fp
+ recall = tp / tp+fn
+ f1 score: Harmonic avg of precision and recall
+
+ log loss:
+ measures the performance of a classifier where
+the predicted output is a probability value between 0 and 1. 
