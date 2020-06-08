@@ -1,7 +1,7 @@
 import pandas as pd 
 from matplotlib import pyplot as plt 
 import numpy as np 
-from sklearn.linear_model import SGDRegressor
+from sklearn import linear_model
 from sklearn.metrics import r2_score
 
 df = pd.read_csv('/home/vivek/ml/Regression/FuelConsumptionCo2.csv')
